@@ -25,11 +25,11 @@ export const environment: IEnvironment = {
       logLevel: DiagLogLevel.ALL //ALL Log, DiagLogLevel is an Enum from @opentelemetry/api
     },
     otelcolConfig: {
-      url: 'http://127.0.0.1:4318/v1/traces', // URL of opentelemetry collector
+      url: 'http://172.30.70.167:4318/v1/traces', // URL of opentelemetry collector
       attributes: {
         test: 'test'
       }
-    }
+    },
   },
   loggerConfig: {
     level: NgxLoggerLevel.DEBUG,
